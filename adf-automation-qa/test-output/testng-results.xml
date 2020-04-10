@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Alfresco ADF Demo" duration-ms="40947" started-at="2020-04-10T20:46:09Z" finished-at="2020-04-10T20:46:50Z">
+    <groups>
+    </groups>
+    <test name="Folder Creation" duration-ms="40947" started-at="2020-04-10T20:46:09Z" finished-at="2020-04-10T20:46:50Z">
+      <class name="com.alfresco.adf_automation_qa.TestADFDemo">
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String)[pri:0, instance:com.alfresco.adf_automation_qa.TestADFDemo@17c386de]" name="init" is-config="true" duration-ms="14430" started-at="2020-04-11T02:16:09Z" finished-at="2020-04-11T02:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://qaexercise.envalfresco.com/settings]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="loginInECM(java.lang.String, java.lang.String)[pri:1, instance:com.alfresco.adf_automation_qa.TestADFDemo@17c386de]" name="loginInECM" duration-ms="3695" started-at="2020-04-11T02:16:23Z" finished-at="2020-04-11T02:16:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[guest@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInECM -->
+        <test-method status="PASS" signature="createFolder()[pri:3, instance:com.alfresco.adf_automation_qa.TestADFDemo@17c386de]" name="createFolder" duration-ms="11908" started-at="2020-04-11T02:16:27Z" finished-at="2020-04-11T02:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFolder -->
+        <test-method status="PASS" signature="createDuplicateFolder()[pri:4, instance:com.alfresco.adf_automation_qa.TestADFDemo@17c386de]" name="createDuplicateFolder" duration-ms="7468" started-at="2020-04-11T02:16:39Z" finished-at="2020-04-11T02:16:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDuplicateFolder -->
+        <test-method status="PASS" signature="deleteFolder()[pri:4, instance:com.alfresco.adf_automation_qa.TestADFDemo@17c386de]" name="deleteFolder" duration-ms="2631" started-at="2020-04-11T02:16:46Z" finished-at="2020-04-11T02:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFolder -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.alfresco.adf_automation_qa.TestADFDemo@17c386de]" name="quit" is-config="true" duration-ms="795" started-at="2020-04-11T02:16:49Z" finished-at="2020-04-11T02:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.alfresco.adf_automation_qa.TestADFDemo -->
+    </test> <!-- Folder Creation -->
+  </suite> <!-- Alfresco ADF Demo -->
+</testng-results>
